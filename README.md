@@ -1,5 +1,5 @@
 # Ludovico Toscano university projects repository
-Welcome to my repository of some of mine university projects. 👋
+Welcome to the repository with some of mine university projects. 👋
 
 ## Machine learning
 ### Clustering - [jupiter notebook here](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project3/Project%203%20.ipynb)
@@ -40,3 +40,10 @@ We used **Linear Regression** and **Decision Tree** to complete the task, we als
 For this project it was asked to find a dataset and then using PySpark do something, like a Machine Learning model for example. The ML model wasn't evaluated, we only need to use in the right way the PySpark functions.
 
 So we did an Exploratory Data Analysis of a dataset of a Brasilian e-commerce in order to predict the score for each order. Then we used a multinomial linear regression to predict the score.
+
+## Social media analytics
+
+### Scraping
+
+For doing the **Text mining** analysis we had to scrape some data from the web, so we have chose to scrape some articles and comments from three different news papers in order to see if we are able to find any difference in the way they treat the argument of the war in Ukraine.
+
