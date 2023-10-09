@@ -14,7 +14,7 @@ This project was about predicting if a supermarket customer will accept a market
 
 We tried different ways to deal with **imbalanced learning**, such as **undersampling** and **oversampling** using **SMOTE**. For the fine tuning process we used **Grid Search** and for the logistic regression we also used **recursive feature elimination** in order to help us to choose wich feature to keep.
 
-| Algorithm used         | Notebook link                                                                                                                                 |
+| Algorithm used         | Notebook                                                                                                                                 |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Decision Tree          | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project2/Project2-%20DT.ipynb)                              |
 | Logistic Regression    | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project2/Project2-%20Logistic%20Regression.ipynb)           |
@@ -29,7 +29,7 @@ In this project we tried to use different regression algorithms to predict the p
 
 We used **Linear Regression** and **Decision Tree** to complete the task, we also tried with a **Neural Network** but it wasn't performed well so we didn't went further with it. That was our first project after the beginning of the class of Machine Learning so it's the less complete of the three.
 
-| Algorithm used    | Notebook link                                                                                                |
+| Algorithm used    | Notebook                                                                                                |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
 | Decision Tree     | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/DT_Group_E.ipynb) |
 | Linear Regression | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/LR_Group_E.ipynb) |
@@ -43,7 +43,22 @@ So we did an Exploratory Data Analysis of a dataset of a Brasilian e-commerce in
 
 ## Social media analytics
 
+All this sections are part of the same of the same project, the objective was to scrape some data from the web and then apply some of the **Text mining** tecniques that we have learn on class.
+
 ### Scraping
 
 For doing the **Text mining** analysis we had to scrape some data from the web, so we have chose to scrape some articles and comments from three different news papers in order to see if we are able to find any difference in the way they treat the argument of the war in Ukraine.
 
+| News Paper       | Data                | Notebook                                                                                                                       |
+|------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Daily Mail       | Articles + Comments | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/dailymail/daily_mail.ipynb)            |
+| Fatto Quotidiano | Articles            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/fatto-quotidiano/scraper_falso.ipynb)  |
+| Fatto Quotidiano | Comments            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/fatto-quotidiano/comments_falso.ipynb) |
+| Sputnik          | Articles            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/sputnik/sputnik.ipynb)                 |
+| Sputnik          | Comments            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/sputnik/CreateCommentDSsputnik.ipynb)  |
+
+### Text mining
+
+We decide to perform **Topic Modeling**, **Frequency Analysis**, **Keyword Extraction** and **Sentiment Anlysis**.
+
+Notebooks are coming, I need to clean the cells output and add explanations.
