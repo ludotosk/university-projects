@@ -33,3 +33,10 @@ We used **Linear Regression** and **Decision Tree** to complete the task, we als
 |-------------------|--------------------------------------------------------------------------------------------------------------|
 | Decision Tree     | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/DT_Group_E.ipynb) |
 | Linear Regression | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/LR_Group_E.ipynb) |
+
+## Big data
+### PySpark - [data bricks notebook here](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8951170136253674/4022108160822800/7461935275397430/latest.html)
+
+For this project it was asked to find a dataset and then using PySpark do something, like a Machine Learning model for example. The ML model wasn't evaluated, we only need to use in the right way the PySpark functions.
+
+So we did an Exploratory Data Analysis of a dataset of a Brasilian e-commerce in order to predict the score for each order. Then we used a multinomial linear regression to predict the score.
