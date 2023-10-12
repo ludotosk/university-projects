@@ -61,4 +61,4 @@ For doing the **Text mining** analysis we had to scrape some data from the web, 
 
 We decide to perform **Topic Modeling**, **Frequency Analysis**, **Keyword Extraction** and **Sentiment Anlysis**.
 
-Notebooks are coming, I need to clean the cells output and add explanations.
+Notebooks are coming, I need to clean the cells output and add explanations. In the meantime you can take a look on the [report](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/SMA%20Report.docx.pdf) that we have made.
