@@ -34,6 +34,13 @@ We used **Linear Regression** and **Decision Tree** to complete the task, we als
 | Decision Tree     | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/DT_Group_E.ipynb) |
 | Linear Regression | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/LR_Group_E.ipynb) |
 
+## Data mining
+### National Tourism Promotion
+
+Goal: Provide business recommendations to National Tourism Board Organizations (NTBO) of Portugal in order to increase 
+tourism activity in Portugal.
+
+
 ## Big data
 ### PySpark - [data bricks notebook here](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8951170136253674/4022108160822800/7461935275397430/latest.html)
 
