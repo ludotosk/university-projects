@@ -1,5 +1,11 @@
-# Ludovico Toscano university projects repository
+# Ludovico Toscano portfolio
 Welcome to the repository with some of mine university projects. 👋
+
+- **Subjects**:
+    - [Machine learning](#machine-learning)
+    - [Data Mining](#data-mining)
+    - [Big data](#big-data)
+    - [Social media analytics](#social-media-analytics)
 
 ## Machine learning
 ### Clustering - [jupiter notebook here](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project3/Project%203%20.ipynb)
@@ -51,7 +57,21 @@ Then we perfomed the **RFM** in order to find influencers on our dataset, based 
 
 #### Data preparation
 
+As said before we where having one datasets with the reviews, that was containing also the location of the user but it wasn't registered in a consistent way. Something was given the name of the nation, other time the name of the city so in order to perfom some clustering we had to find the ISO code of the nation of each user. For doing that we leveraged on two libraries **Geopy** and **Pycountry**, the first one is able to search the location on the **OpenStreeMap** dataset and the second one is able to give us the ISO code of the nation given the name.
 
+##### Finding users ISO code - [First Pycountry notebook](https://github.com/ludotosk/university-projects/blob/main/data%20science/userLocationPycountryFirst_group40.ipynb) - [Geopy notebook](https://github.com/ludotosk/university-projects/blob/main/data%20science/userLocationGeopy_group40.ipynb) - [Second Pycountry notebook](https://github.com/ludotosk/university-projects/blob/main/data%20science/userLocationPycountrySecond_group40.ipynb)
+
+The first problem to solve was that the Geopy api's have some constraints on the number of request that you can do, so in order to not spend the 12 hours needed to obtain the data we had to reduce the number of query needed.
+
+So we first escluded the observations that already have the ISO code, and for those with the name of the country we used Pycountry to find the ISO code. We then noticed that for the USA states a code similar to the ISO one was given, so we changed all this code to USA. We also noticed some UK code from the scraped data that we changed with GBR.
+
+Then we perfomed the Geopy query only for the one that were missing the ISO code, reducing the search time to half an hour. That was important since we had found some problems on the data so we perfomed this process many times. Then we used the new data to perfome another time the Pycountry search in order to transform the name of the nation in the ISO code.
+
+##### Finding attractions coordinates - [Notebook](https://github.com/ludotosk/university-projects/blob/main/data%20science/geopyAttraction_group40.ipynb)
+
+For the attractions we used the Geopy api's to find the coordinates of the attractions, we had to do this because the dataset was containing the name of the attraction and the country but not the coordinates. The coordinates were important because we find out that within big countries there are different clusters of attractions, and if an attraction is in the border within two countries it need to fall in the same cluster.
+
+So we first used Geopy to have the coordinates, then since we had only 100 attractions we been able to inspect the results and correct some of the wrong fndings. So we performed **K-means** with differnt number of k with a range that was bigger than the number of analyzed nation, se we alrady know that isn't enogh. Then we have taken a look into the results until the clusters started to make sense with what we studied in the business understading part.
 
 ## Big data
 ### PySpark - [data bricks notebook here](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8951170136253674/4022108160822800/7461935275397430/latest.html)
