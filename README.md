@@ -96,7 +96,7 @@ For doing the **Text mining** analysis we had to scrape some data from the web, 
 | Sputnik          | Articles            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/sputnik/sputnik.ipynb)                 |
 | Sputnik          | Comments            | [link](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/sputnik/CreateCommentDSsputnik.ipynb)  |
 
-### Text mining
+### Text mining - [Report](https://github.com/ludotosk/university-projects/blob/main/social-media-analytics/SMA%20Report.docx.pdf)
 
 We decided to perform **Topic Modeling**, **Frequency Analysis**, **Keyword Extraction**, and **Sentiment Analysis**.
 
