@@ -35,7 +35,7 @@ We used **Linear Regression** and **Decision Tree** to complete the task, we als
 | Linear Regression | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/LR_Group_E.ipynb) |
 
 ## Data mining
-### National Tourism Promotion
+### National Tourism Promotion - [EDA]()
 
 Goal: Provide business recommendations to National Tourism Board Organizations (NTBO) of Portugal in order to increase 
 tourism activity in Portugal.
