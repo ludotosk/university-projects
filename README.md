@@ -35,10 +35,22 @@ We used **Linear Regression** and **Decision Tree** to complete the task, we als
 | Linear Regression | [link](https://github.com/ludotosk/university-projects/blob/main/machine-learning/project1/LR_Group_E.ipynb) |
 
 ## Data mining
-### National Tourism Promotion - [EDA]()
+### National Tourism Promotion - [EDA](https://github.com/ludotosk/university-projects/blob/main/data%20science/Group_40.ipynb) - [Report](https://github.com/ludotosk/university-projects/blob/main/data%20science/Report_Group40.pdf)
+#### Project description
 
 Goal: Provide business recommendations to National Tourism Board Organizations (NTBO) of Portugal in order to increase 
 tourism activity in Portugal.
+
+Our professor give us three different datasets, one was containing some reviews scraped by trip advisior, the second one was containing data about the attractions about the scraped comments and the last one was about holidays dates in the world.
+
+We had to perform **data mining** techniques in oder to make a report with all the findings and the business recommendations. We also had to find a way to perform **RFM**, **Apriori** and the **Cosine similarity** in a way that can fit our needs.
+
+Using the **Apriori** we were able to discover the combinations of attractions that are more likely to be visited together, and using the **Cosine similarity** we were able to find the attractions that are more similar to each other.
+
+Then we perfomed the **RFM** in order to find influencers on our dataset, based on the number of contributions, the number of reviews and the rating given. The rating for us was important since who give an higher rating is more likely to give a good reviews if we invite him to visit Portugal.
+
+#### Data preparation
+
 
 
 ## Big data
